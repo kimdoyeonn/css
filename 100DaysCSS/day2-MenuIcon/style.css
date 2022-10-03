@@ -57,20 +57,20 @@
   animation: animate-line-3-rev .7s ease-in-out;
 }
 
-.menu-icon:active > .line-1 {
+.menu-icon.active > .line-1 {
   animation: animate-line-1 .7s cubic-bezier(0.30,1,0.70,1) forwards;
 }
-.menu-icon:active > .line-2 {
+.menu-icon.active > .line-2 {
   animation: animate-line-2 .7s cubic-bezier(0.30,1,0.70,1) forwards;
 }
-.menu-icon:active > .line-3 {
+.menu-icon.active > .line-3 {
   animation: animate-line-3 .7s cubic-bezier(0.30,1,0.70,1) forwards;
 }
 
-.no-animation {
+/* .no-animation {
 	-webkit-animation: none !important;
           animation: none !important; 
-}
+} */
 
 @keyframes animate-line-1 {
   0% {
